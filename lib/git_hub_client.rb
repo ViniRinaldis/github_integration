@@ -8,7 +8,7 @@ class GitHubClient
   def initialize(organization:, project:)
     @commit_uri = build_commit_uri(organization: organization,
                                    project: project)
-    @rest_client = RestClient.new(username: "vinirinaldis", password: "441ae728a0deab90941679424b2fba5deb9b372a")
+    @rest_client = RestClient.new(username: "vinirinaldis", password: "f9069b1580ef442ad441c6c5e36583d2db68a2f7")
   end
 
   def get_commits
