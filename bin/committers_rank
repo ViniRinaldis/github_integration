@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/committer_rank_file_creator'
+
+options = ARGV
+if options.empty?
+  puts "insira o nome da organização e o nome do projeto"
+else
+  organization = options[0]
+  project      = options[1]
+
+  file_name = CommitterRankFileCreator.new(organization: organization, project: project).generate_file
+  puts "#{file_name} criado com sucesso!"
+end
