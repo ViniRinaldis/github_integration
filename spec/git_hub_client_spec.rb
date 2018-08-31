@@ -38,7 +38,7 @@ describe GitHubClient do
         "email"=>nil,
         "hireable"=>nil,
         "bio"=>"Ruby on Rails developer\r\n",
-        "public_repos"=>6,
+        "public_repos"=>7,
         "public_gists"=>0,
         "followers"=>2,
         "following"=>3,
