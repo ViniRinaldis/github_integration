@@ -15,3 +15,10 @@
 ```
 Vinicius Rinaldis;;ViniRinaldis;https://avatars3.githubusercontent.com/u/15875781?v=4;5;
 ```
+
+
+## Testes
+### Como rodar os testes
+* Na raiz do projeto execute o comando `bundle install` para instalar a gem `rspec`
+
+* Execute `bundle exec rspec ./spec`
